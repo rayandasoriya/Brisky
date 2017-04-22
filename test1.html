@@ -1,0 +1,310 @@
+
+<!doctype html>
+<html>
+<head>
+<title>Online Shopping India|Brisky</title>
+
+<script type="text/javascript">
+            var picPaths = ['pic1.jpg','pic3.jpg','pic4.jpg','pic5.jpg'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,1500);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+        </script>
+<meta charset="utf-8" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+     -webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+    -webkit-column-rule: 2px outset #696969; /* Chrome, Safari, Opera */
+    -moz-column-rule: 2px outset #696969; /* Firefox */
+    column-rule: 2px outset #696969;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+body {
+  font-family: Arial, Helmet, Freesans, sans-serif;
+  margin:0;
+  line-height:16px;
+
+  link:#ffffff;
+}
+
+#title-bar {
+  margin-top: -40px;
+  background-color:#990000;
+  width:100%;
+  height:195px;
+}
+
+#small-bar {  
+  margin-top: 10px;
+  padding-top: 8px;
+  background-color:#808080;
+  width:100%;
+  font-size:20px;
+  height:26px;
+  text-align:center;
+}
+
+
+#slide{
+  width:97%;
+  height:350px;
+  margin: 20px;
+  background-color: #696969;  
+  float: left;
+}
+
+.table-hover {
+  background-color: blue;
+  color: blue;
+}
+.slide1{
+  width:97%;
+  height:250px;
+  margin: 20px;
+  background-color: #696969;  
+  float: left;
+
+}
+
+#slide img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#slide:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+ul{
+  
+list-style-type: circle;
+
+}
+
+/* unvisited link */
+a{
+  text-decoration: none;
+}
+a:link {
+    
+color: yellow;
+
+}
+
+
+/* visited link */
+
+a:visited 
+{
+    
+color: #FFA500;
+
+}
+
+
+/* mouse over link */
+
+a:hover 
+{
+    
+color: hotpink;
+
+}
+
+
+/* selected link */
+
+a:active {
+
+    color: blue;
+}
+
+
+
+.heading
+{
+padding-top: 23px;
+color: white;
+}
+
+
+</style>
+</head>
+
+
+
+
+<body>
+<div id="topbar" style="background-color:#990000;width: 100%; height: 30px;">
+<a href="cart.html" style="padding-top:7px;float:right;margin-right :50px;color: white; font-size:15px; ">Login</a>
+    <a href="cart.html"  style="padding-top:7px;float:right;margin-right :50px;color: white; font-size:15px; ">Signup</a>
+
+    <a href="cart.html" style="float:right;padding-top:7px;margin-right :50px;color: white; font-size:15px; ">Cart</a>
+    <a href="track.html" style="float:right;padding-top:7px;margin-right :50px;color: white; font-size:15px; ">Track Order</a>
+<span class="dropdown1" style="padding-top:7px;float:right;margin-right :50px;color: white; font-size:15px; text-decoration: none;"><span>24x7 Customer Support</span>
+        <div class="dropdown-content1" style="color: #696969">
+          Contact us at:
+          <ul>
+            <li>dasoriyarayan@gmail.com</li>
+            <li>9930890426</li>
+          </ul>
+      </div>
+    </font></b></em><span>
+
+    </div>
+  
+
+  <div id="title-bar">
+  <img src="icon.jpg" height=100px;  style="float: left;margin-left:30px;padding-top: 20px;">
+  <h1 class="heading" style="float:left;font-family: Cursive; font-size: 50px;margin-left: 40px;">Brisky</h1><p style="float:left;font-family:cursive;padding-top:45px;margin-right :55px;color: white; font-size:20px; ">-Make It Quick</p>
+  
+    <input id="textbox" type="text" placeholder="Google Search" style="float:right;margin-top:60px;margin-right:-550px;height: 25px;min-width: 160px; text-align:center;" onkeydown="if (event.keyCode == 13 || event.which == 13) { location='http://www.google.com/search?q=' +encodeURIComponent(document.getElementById('textbox').value);}" />
+    
+  
+  <table style="width:90%;height:40px; margin-top: 25px; background-color: #990000" align="center">
+    <tr>
+        <th><a href="Home.html" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4">HOME</font></b></em></a></th>
+        <th><a href="About.html" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4">ABOUT US</font></b></em></a></th> 
+        <th><span class="dropdown" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4"><span>PRODUCTS</span>
+        <div class="dropdown-content">
+          <a href="mob.html" style="color: #696969;">Mobiles and Computers</a><br>
+          <a href="fas.html" style="color: #696969;">Fashion</a><br>
+          <a href="per.html" style="color: #696969;">Personal Care</a><br>
+          <a href="hom.html" style="color: #696969;">Home Products</a><br>
+          <a href="boo.html" style="color: #696969;">Books</a>
+      </div>
+    </font></b></em><span></th>
+        <th><a href="Contactus.html" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4">CONTACT US</font></b></em></a></th>
+      </tr>
+  </table>
+  </div>
+
+
+<div style="   width: 95%;
+    padding: 10px;
+    background-color: #696969;
+    margin: 20px;
+    color:white;
+    height: 400px;
+    line-height: 25px;">
+    
+    <div style="margin-left: 75px;margin-top: 25px;margin-right: 75px;">
+<script language="JavaScript" src="gen_validatorv4.js"
+    type="text/javascript" xml:space="preserve"></script>
+  </head>
+  <body>
+  
+  <ul>
+  <li>Password should not be same as user name (validator: "neelmnt")</li>
+  <li>Confirm Password should be same as password (validator: "eqelmnt")</li>
+  <li>The numbers should match this relation: large num > medium num > small num</li>
+  </ul>
+    <form action="" name="chkform" id="myform">
+    <p>
+    <label for='hostingsupport'>Need Website maintenance?</label><input type='checkbox' name='hostingsupport' id='hostingsupport' value='y'/>
+    </p>
+    <p>
+    <label for='antarctica'>Are you from Antarctica?</label><input type='checkbox' name='antarctica' id='antarctica' value='y'/>
+    </p>    
+    <p>
+    Website features required:<br/>
+    <input type='checkbox' name='features[]' id='features_item_0' value='HTML'/><label for='features_item_0'>Plain HTML Pages</label>
+    <input type='checkbox' name='features[]' id='features_item_1' value='Videos'/><label for='features_item_1'>Embedded Videos</label>
+    <input type='checkbox' name='features[]' id='features_item_2' value='flash'/><label for='features_item_2'>Flash</label>
+    <input type='checkbox' name='features[]' id='features_item_3' value='webapp'/><label for='features_item_3'>Custom web application</label>
+    </p>    
+    
+    <p>
+    Do you agree to our terms &amp; conditions?<br/>
+    <input type='radio' name='Terms' id='Terms_radio_0' value='Agree'/><label for='Terms_radio_0'>Agree</label>
+    <input type='radio' name='Terms' id='Terms_radio_0' value='Disagree'/><label for='Terms_radio_1'>Disagree</label>
+    </p>
+    <div id="chkform_errorloc" class="error_strings">
+    </div>
+    <p>
+    <input type="submit" value="Submit" />
+    </p>
+    </form><script language="JavaScript" type="text/javascript"
+    xml:space="preserve">//<![CDATA[
+  var chktestValidator  = new Validator("chkform");
+  chktestValidator.EnableOnPageErrorDisplaySingleBox();
+  chktestValidator.EnableMsgsTogether();
+  chktestValidator.addValidation("hostingsupport","shouldselchk=y","Sorry; we can support only if you select Website maintenance");
+  chktestValidator.addValidation("antarctica","dontselectchk=y","Sorry; we don't support customers from Antarctica!");
+  
+  chktestValidator.addValidation("features[]","selmin=2","Select at least two features");
+  chktestValidator.addValidation("features[]","selmax=3","Select maximum 3 features");
+  
+  chktestValidator.addValidation("Terms","selectradio","Please select an option from 'Agree to Terms'");
+  chktestValidator.addValidation("Terms","dontselectradio=Disagree","Can't proceed since you disagree to the Terms");
+ 
+//]]></script>
+</div>
+
+
+
+
+</body>
+</html>
+
+

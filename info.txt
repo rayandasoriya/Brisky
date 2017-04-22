@@ -1,0 +1,38 @@
+Mobiles and Computers:
+Android Mobiles,
+Apple Phones,
+HP Laptops,
+Lenovo Laptops,
+Macbook.
+
+Fashion:
+Men,
+Women,
+Kids,
+Footwear,
+Watches,
+Handbags
+
+Personal Care:
+Fragrance,
+Men's Grooming,
+Shampoo,
+Facewash,
+Soap,
+Luxary Beauty.
+
+Home Products:
+Furniture,
+Microwave Oven,
+Gas Stove,
+Grinder,
+Cleaners,
+Utensils.
+
+Books:
+Science Fiction,
+Drama,
+Action,
+Romance,
+Mystery,
+Horror.

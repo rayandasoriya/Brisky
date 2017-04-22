@@ -1,0 +1,394 @@
+<!doctype html>
+<html>
+<head>
+<title>Online Shopping India|Brisky</title>
+
+<script type="text/javascript">
+            var picPaths = ['pic1.jpg','pic3.jpg','pic4.jpg'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,1500);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+        </script>
+<meta charset="utf-8" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 1000%;
+    height: 200px;
+    //min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+     -webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+    -webkit-column-rule: 2px outset #696969; /* Chrome, Safari, Opera */
+    -moz-column-rule: 2px outset #696969; /* Firefox */
+    column-rule: 2px outset #696969;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width:170%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+body {
+  font-family: Arial, Helmet, Freesans, sans-serif;
+  margin:0;
+  line-height:16px;
+  link:#ffffff;
+}
+
+#title-bar {
+  margin-top: -40px;
+  background-color:#990000;
+  width:100%;
+  height:195px;
+}
+
+#small-bar {  
+  margin-top: 10px;
+  padding-top: 8px;
+  background-color:#808080;
+  width:100%;
+  font-size:20px;
+  height:26px;
+  text-align:center;
+}
+
+
+#slide{
+  width:97%;
+  height:350px;
+  margin: 20px;
+  background-color: #696969;  
+  float: left;
+}
+
+.table-hover {
+  background-color: blue;
+  color: blue;
+}
+.slide1{
+  width:97%;
+  height:250px;
+  margin: 20px;
+  background-color: #696969;  
+  float: left;
+
+}
+
+#slide img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#slide:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+ul{
+  
+list-style-type: circle;
+
+}
+
+/* unvisited link */
+a{
+  text-decoration: none;
+  font-family: Arial;
+}
+a:link {
+    
+color: white;
+
+}
+
+
+/* visited link */
+
+a:visited 
+{
+    
+color: white;
+
+}
+
+
+/* mouse over link */
+
+a:hover 
+{
+    
+color:#A569BD;
+
+}
+
+
+/* selected link */
+
+a:active {
+
+    color: blue;
+}
+
+#gene table,#gene td,#gene th {    
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#gene table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#gene th, #gene td {
+    padding: 15px;
+}
+
+
+
+.heading
+{
+padding-top: 23px;
+color: white;
+}
+
+
+.myButton {
+  background-color:#D35400;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+  background-color:#5cbf2a;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
+</style>
+</head>
+
+
+
+
+<body>
+<div style="position: fixed;width: 100%;z-index: 1;margin-top: -30px;">
+<div id="topbar" style="background-color:#990000;width: 100%; height: 30px;">
+    <a href="login.html" style="padding-top:7px;float:right;margin-right :50px;color: white; font-size:15px; ">Login</a>
+    <a href="signup.html"  style="padding-top:7px;float:right;margin-right :50px;color: white; font-size:15px; ">Signup</a>
+    <a href="cart.html" style="float:right;padding-top:7px;margin-right :50px;color: white; font-size:15px; ">Cart</a>
+    <a href="track.html" style="float:right;padding-top:7px;margin-right :50px;color: white; font-size:15px; ">Track Order</a>
+    <span class="dropdown1" style="padding-top:7px;float:right;margin-right :50px;color: white; font-size:15px; text-decoration: none;"><span>24x7 Customer Support</span>
+        <div class="dropdown-content1" style="color: #696969">
+          Contact us at:
+          <ul style="list-style: none">
+            <li><a><i class="material-icons" style="padding-right: 10px;margin-top:5px;">email</i>dasoriyarayan@gmail.com</a></li><br>
+            <li><i class="material-icons" style="padding-right: 10px;">local_phone</i>+91-9930890426</li>
+          </ul>
+      </div>
+      </span>
+
+</div>
+  
+
+  <div id="title-bar" >
+    <img src="icon.jpg" height=100px;  style="float: left;margin-left:30px;padding-top: 20px;">
+    <h1 class="heading" style="float:left;font-family: Cursive; font-size: 50px;margin-left: 40px;">  Brisky</h1><p style="float:left;font-family:cursive;padding-top:45px;margin-right :55px;color: white; font-size:20px; ">-Make It Quick</p>
+  
+    <input id="textbox" type="text" placeholder="Google Search" style="float:right;margin-top:60px;margin-right:-550px;height: 25px;min-width: 160px; text-align:center;" onkeydown="if (event.keyCode == 13 || event.which == 13) { location='http://www.google.com/search?q=' +encodeURIComponent(document.getElementById('textbox').value);}" />
+    
+  
+    <table style="width:90%;height:40px; margin-top: 25px; background-color: #990000" align="center">
+    <tr>
+        <th><a href="Home.html" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4">HOME</font></b></em></a></th>
+        
+        <th><span class="dropdown" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4"><span>PRODUCTS</span>
+        <div class="dropdown-content" style="color: black;line-height: 20px;"">
+          <a href="mob.html" style="color: black;">Mobiles and Computers</a><br><hr>
+          <a href="tid101.html" style="color: #696969;">Android Mobiles</a><br>
+          <a href="tid102.html" style="color: #696969;">Apple Phones</a><br>
+          <a href="tid103.html" style="color: #696969;">HP Laptops</a><br>
+          <a href="tid104.html" style="color: #696969;">Lenovo Laptops</a><br>
+          <a href="tid105.html" style="color: #696969;">Macbook</a><br>
+          <a href="tid106.html" style="color: #696969;">Other Laptops</a><br><br>
+          
+          <a href="fas.html" style="color: black;">Fashion</a><br><hr>
+          <a href="tid201.html" style="color: #696969;">Men</a><br>
+          <a href="tid202.html" style="color: #696969;">Women</a><br>
+          <a href="tid203.html" style="color: #696969;">Kids</a><br>
+          <a href="tid204.html" style="color: #696969;">Footwear</a><br>
+          <a href="tid205.html" style="color: #696969;">Watches</a><br>
+          <a href="tid206.html" style="color: #696969;">Handbags</a><br><br>
+
+
+          <a href="per.html" style="color: black;">Personal Care</a><br><hr>
+          <a href="tid301.html" style="color: #696969;">Fragrance</a><br>
+          <a href="tid302.html" style="color: #696969;">Men's Grooming</a><br>
+          <a href="tid303.html" style="color: #696969;">Shampoo</a><br>
+          <a href="tid304.html" style="color: #696969;">Facewash</a><br>
+          <a href="tid305.html" style="color: #696969;">Soap</a><br>
+          <a href="tid306.html" style="color: #696969;">Luxary Beauty</a><br><br>
+          
+
+
+          <a href="hom.html" style="color: black;">Home Products</a><br><hr>
+        <a href="tid401.html" style="color: #696969;">Furniture</a><br>
+          <a href="tid402.html" style="color: #696969;">Microwave Oven</a><br>
+          <a href="tid403.html" style="color: #696969;">Gas Stove</a><br>
+          <a href="tid404.html" style="color: #696969;">Grinder</a><br>
+          <a href="tid405.html" style="color: #696969;">Cleaners</a><br>
+          <a href="tid406.html" style="color: #696969;">Utensils</a><br><br>
+
+          <a href="boo.html" style="color: black;">Books</a><hr>
+          <a href="tid501.html" style="color: #696969;">Science Fiction</a><br>
+          <a href="tid502.html" style="color: #696969;">Drama</a><br>
+          <a href="tid503.html" style="color: #696969;">Action</a><br>
+          <a href="tid504.html" style="color: #696969;">Romance</a><br>
+          <a href="tid505.html" style="color: #696969;">Mystery</a><br>
+          <a href="tid506.html" style="color: #696969;">Horror</a><br>
+          
+      </div>
+        </font></b></em></span></th>
+        <th><a href="About.html" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4">ABOUT US</font></b></em></a></th> 
+        <th><a href="Contactus.html" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4">CONTACT US</font></b></em></a></th>
+      </tr>
+  </table>
+  
+</div>
+</div>
+
+
+<div style="width: 93%;height: 500px;margin: 30px;padding-top: 180px;">
+<div style="float:left;margin: 30px;width: 300px;height: 350px; background-color: white; border: 1px solid red;">
+<img src="deal2.jpg" width="250px;" height="350px;" >
+</div>
+<div style=" float: left; width: 600px;height: 500px;margin-left: 30px;padding: 30px;">
+<h2>Godrej Double Door Refridgerator!</h2>
+<p style="line-height: 25px;"> Ratings: 4.8/5    7,534 Ratings & 1756 Reviews</p>
+
+<p><h1> ₹16000</h1><h4 style="text-decoration: line-through;"> ₹24615</h4>35% Off</p>
+<a href="#" class="myButton">Buy Now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="myButton">Add to Cart</a><br><br><hr><br>
+<strong>Features</strong>
+<ul style="line-height: 25px;">
+<li>Weight: 78 KG</li>
+<li>Capacity: 350 L</li>
+<li>Voltage: 230 V, 50 Hz</li>
+<li>Compressor: Regular</li>
+
+</ul>
+<strong>Bank Offer : </strong>Extra 5% off* on Axis Bank Buzz Credit Cards T&C<br><br>
+<strong>Seller : </strong>Divya Electronics (4.1)<br><br>
+<hr>
+<strong><h3 style="text-decoration: underline;">Description</h3></strong>
+<p style="line-height: 25px;">
+Beat the summer heat with Godrej Eon Refrigerators. Godrej is the first company to launch the first refrigerator in India, way back in the year 1958. Today Godrej Eon Refrigerators keep you cool with a plethora of innovative solutions like Cool shower technology, Poly bag suspenders in the freezer, Anti-B technology, 5 star energy rating, ZOP technology, and 100% CFC free refrigerators. Godrej Edge-Digi offers automatic defrost in a direct-cool refrigerator. A direct cool refrigerator from Godrej has intelligent auto defrost facility. Godrej’s range of Frost free and Direct-cool refrigerators have been made keeping the environment in mind and the growing customer needs.</p>
+<hr>
+
+
+
+<h2>Specification</h2><hr>
+<h3>General</h3>
+<table id="gene">
+  <tr><td>Model No. </td>
+<td>RT EON 350 P 3.4</td></tr>
+<tr><td>Energy Rating</td>
+<td>3 Star</td></tr>
+<tr><td>Number of Doors</td>
+<td> Double Door</td></tr>
+<tr><td>Refrigerator Capacity (Total)</td>
+<td>350</td></tr>
+<tr><td>Defrosting Type</td>
+<td>No</td></tr>
+<tr><td>Shelf Type  </td>
+<td>toughened glass</td></tr>
+<tr><td>Number of shelves</td>
+<td>3</td></tr>
+<tr><td>Voltage Range</td>
+<td> 230 V, 50 Hz</td></tr>
+
+<tr><td>HFC and CFC Free</td>
+<td>Yes</td></tr>
+</table>
+<br><br>
+<hr>
+<br><br><br><br><br><br>
+</div>
+<div style="float: left;height: 300px; width: 350px; margin-top: 50px; border: 1px solid red;">
+<div style="padding: 10px;">
+  <h3>Cart Items</h3>
+  Your Cart is Empty
+  <a href="#" class="myButton" style="margin-top: 155px;margin-left:35px;">Proceed For Checkout</a>
+  </div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+

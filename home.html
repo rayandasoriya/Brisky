@@ -1,0 +1,549 @@
+<!doctype html>
+<html>
+<head>
+<title>Online Shopping India|Brisky</title>
+
+<script type="text/javascript">
+            var picPaths = ['pic1.jpg','pic3.jpg','pic4.jpg'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,1500);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+        </script>
+<meta charset="utf-8" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 1000%;
+    height: 200px;
+    //min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+     -webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+    -webkit-column-rule: 2px outset #696969; /* Chrome, Safari, Opera */
+    -moz-column-rule: 2px outset #696969; /* Firefox */
+    column-rule: 2px outset #696969;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width:170%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+body {
+	font-family: Arial, Helmet, Freesans, sans-serif;
+	margin:0;
+	line-height:16px;
+	link:#ffffff;
+}
+
+#title-bar {
+	margin-top: -40px;
+	background-color:#990000;
+	width:100%;
+	height:195px;
+}
+
+#small-bar {	
+	margin-top: 10px;
+	padding-top: 8px;
+	background-color:#808080;
+	width:100%;
+	font-size:20px;
+	height:26px;
+	text-align:center;
+}
+
+
+#slide{
+	width:97%;
+	height:350px;
+	margin: 20px;
+	background-color: #696969;	
+	float: left;
+}
+
+.table-hover {
+  background-color: blue;
+  color: blue;
+}
+.slide1{
+	width:97%;
+	height:250px;
+	margin: 20px;
+	background-color: #696969;	
+	float: left;
+
+}
+
+#slide img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#slide:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+ul{
+	
+list-style-type: circle;
+
+}
+
+/* unvisited link */
+a{
+	text-decoration: none;
+	font-family: Arial;
+}
+a:link {
+    
+color: white;
+
+}
+
+
+/* visited link */
+
+a:visited 
+{
+    
+color: white;
+
+}
+
+
+/* mouse over link */
+
+a:hover 
+{
+    
+color: #A569BD;
+
+}
+
+
+/* selected link */
+
+a:active {
+
+    color: blue;
+}
+
+
+
+.heading
+{
+padding-top: 23px;
+color: white;
+}
+
+
+</style>
+</head>
+
+
+
+
+<body>
+<div style="position: fixed;width: 100%;z-index: 1">
+<div id="topbar" style="background-color:#990000;width: 100%; height: 30px;">
+		<a href="cart.html" style="float:right;padding-top:7px;margin-right :50px;color: white; font-size:15px; ">Cart</a>
+		<a href="track.html" style="float:right;padding-top:7px;margin-right :50px;color: white; font-size:15px; ">Track Order</a>
+		<span class="dropdown1" style="padding-top:7px;float:right;margin-right :50px;color: white; font-size:15px; text-decoration: none;"><span>24x7 Customer Support</span>
+    		<div class="dropdown-content1" style="color: #696969">
+    			Contact us at:
+    			<ul style="list-style: none">
+    				<li><a><i class="material-icons" style="padding-right: 10px;margin-top:5px;">email</i>dasoriyarayan@gmail.com</a></li><br>
+    				<li><i class="material-icons" style="padding-right: 10px;">local_phone</i>+91-9930890426</li>
+    			</ul>
+			</div>
+    	</span>
+
+</div>
+  
+
+  <div id="title-bar" >
+	  <img src="icon.jpg" height=100px;  style="float: left;margin-left:30px;padding-top: 20px;">
+	  <h1 class="heading" style="float:left;font-family: Cursive; font-size: 50px;margin-left: 40px;">	Brisky</h1><p style="float:left;font-family:cursive;padding-top:45px;margin-right :55px;color: white; font-size:20px; ">-Make It Quick</p>
+	
+		<input id="textbox" type="text" placeholder="Google Search" style="float:right;margin-top:60px;margin-right:-100px;height: 25px;min-width: 160px; text-align:center;" onkeydown="if (event.keyCode == 13 || event.which == 13) { location='http://www.google.com/search?q=' +encodeURIComponent(document.getElementById('textbox').value);}" />
+		
+	
+		<table style="width:90%;height:40px; margin-top: 25px; background-color: #990000" align="center">
+	 	<tr>
+    		<th><a href="Home.html" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4">HOME</font></b></em></a></th>
+    		
+    		<th><span class="dropdown" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4"><span>PRODUCTS</span>
+    		<div class="dropdown-content" style="color: black;line-height: 20px;"">
+    			<a href="mob.html" style="color: black;">Mobiles and Computers</a><br><hr>
+    			<a href="tid101.html" style="color: #696969;">Android Mobiles</a><br>
+    			<a href="tid102.html" style="color: #696969;">Apple Phones</a><br>
+    			<a href="tid103.html" style="color: #696969;">HP Laptops</a><br>
+    			<a href="tid104.html" style="color: #696969;">Lenovo Laptops</a><br>
+    			<a href="tid105.html" style="color: #696969;">Macbook</a><br>
+    			<a href="tid106.html" style="color: #696969;">Other Laptops</a><br><br>
+    			
+    			<a href="fas.html" style="color: black;">Fashion</a><br><hr>
+    			<a href="tid201.html" style="color: #696969;">Men</a><br>
+    			<a href="tid202.html" style="color: #696969;">Women</a><br>
+    			<a href="tid203.html" style="color: #696969;">Kids</a><br>
+    			<a href="tid204.html" style="color: #696969;">Footwear</a><br>
+    			<a href="tid205.html" style="color: #696969;">Watches</a><br>
+    			<a href="tid206.html" style="color: #696969;">Handbags</a><br><br>
+
+
+    			<a href="per.html" style="color: black;">Personal Care</a><br><hr>
+    			<a href="tid301.html" style="color: #696969;">Fragrance</a><br>
+    			<a href="tid302.html" style="color: #696969;">Men's Grooming</a><br>
+    			<a href="tid303.html" style="color: #696969;">Shampoo</a><br>
+    			<a href="tid304.html" style="color: #696969;">Facewash</a><br>
+    			<a href="tid305.html" style="color: #696969;">Soap</a><br>
+    			<a href="tid306.html" style="color: #696969;">Luxary Beauty</a><br><br>
+    			
+
+
+    			<a href="hom.html" style="color: black;">Home Products</a><br><hr>
+				<a href="tid401.html" style="color: #696969;">Furniture</a><br>
+    			<a href="tid402.html" style="color: #696969;">Microwave Oven</a><br>
+    			<a href="tid403.html" style="color: #696969;">Gas Stove</a><br>
+    			<a href="tid404.html" style="color: #696969;">Grinder</a><br>
+    			<a href="tid405.html" style="color: #696969;">Cleaners</a><br>
+    			<a href="tid406.html" style="color: #696969;">Utensils</a><br><br>
+
+    			<a href="boo.html" style="color: black;">Books</a><hr>
+    			<a href="tid501.html" style="color: #696969;">Science Fiction</a><br>
+    			<a href="tid502.html" style="color: #696969;">Drama</a><br>
+    			<a href="tid503.html" style="color: #696969;">Action</a><br>
+    			<a href="tid504.html" style="color: #696969;">Romance</a><br>
+    			<a href="tid505.html" style="color: #696969;">Mystery</a><br>
+    			<a href="tid506.html" style="color: #696969;">Horror</a><br>
+    			
+			</div>
+    		</font></b></em></span></th>
+    		<th><a href="About.html" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4">ABOUT US</font></b></em></a></th> 
+    		<th><a href="Contactus.html" style="text-decoration: none;"><em><b><font color=#FFFFF; size="4">CONTACT US</font></b></em></a></th>
+  		</tr>
+	</table>
+	
+	<div id="small-bar">
+		<marquee>
+			Go Quickly to  :
+			<a href="mob.html">Mobiles and Computers</a> | 
+			<a href="fas.html">Fashion</a> | 
+			<a href="per.html">Personal Care</a> | 
+			<a href="hom.html">Home Products</a> | 
+			<a href="boo.html">Books</a>
+		</marquee>	
+
+	</div>
+  </div>
+</div>
+
+<div class="slide1" style="margin-top: 200px;">
+<img id="imgBanner" src="" alt="" height="250px" width="100%" />
+</div>
+
+<div id="slide" style="height: 150px;">
+<div id="demo" class="case2">
+<h1 style="padding: 30px;color: white;">The List of Products</h1>
+<button type="button" onclick="loadDoc()" >Get List</button>
+</div>
+</div>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "info.txt", true);
+  xhttp.send("NULL");
+}
+</script>
+<div id="slide">	
+	<div style="float: left;width:20%;height:350px; background-color:#990000;;	color: white;">
+	<h1 style="padding-top: 150px; padding-left: 15px;">Deals Of The Day</h1>
+	</div>
+	
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="deal1.jpeg" height="75%" width="100%">
+	<p style="text-align:center;"><a href="pid101.html">iPro Power Bank</a><br>
+	Rs. 1200<br>20% Off<br>
+	</p>
+	</div>
+	
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="deal2.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid102.html">Godrej Double Door Refridgerator</a><br>
+	Rs. 16000<br>35% Off<br>
+	</p>
+	</div>
+
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="phone.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid103.html">Iphone 6s</a><br>
+	Rs. 40000<br>18% Off<br>
+	</p>
+	</div>
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="deal4.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid104.html">Addidas Shoes</a><br>
+	Rs. 4500<br>38% Off<br>
+	</p>
+	</div>
+</div>
+
+<div id="slide">
+	<div style="float: left;	width:20%;height:350px; background-color:#990000;	color: white;">
+	<h1 style="padding-top: 120px; text-align: center;">Mobiles and</h1>
+	<h1 style="padding-left: 15px;text-align: center;">Computers</h1>
+	</div>
+	
+	<div style="margin-left:40px;float:left;width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="phone1.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid201.html">Google Pixel</a><br>
+	Rs. 53000</p>
+	</div>
+	
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="phone2.jpg" height="75%" width="100%">
+	<p style="text-align:center;"><a href="pid202.html">Iphone 7</a><br>
+	Rs. 60000</p>
+	</div>
+
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="phone3.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid203.html">HP Envy 15</a><br>
+	Rs. 55000</p>
+	</div>
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="phone4.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid204.html">HP Printer</a><br>
+	Rs. 5000</p>
+	</div>
+</div>
+
+<div id="slide">
+	<div style="float: left;	width:20%;height:350px;background-color:#990000;	color: white;">
+	<h1 style="padding-top: 150px; text-align: center;">Fashion</h1>
+	</div>
+	
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="fashion1.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid301.html">Zara</a><br>
+	Rs. 1500</p>
+	</div>
+	
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="dress2.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid302.html">Vero moda</a><br>
+	Rs. 1600</p>
+	</div>
+
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="fashion3.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid303.html">Blackberry Tux</a><br>
+	Rs. 6000</p>
+	</div>
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="fashion4.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid304.html">Calvin Klein Jeans</a><br>
+	Rs. 4500</p>
+	</div>
+</div>
+
+<div id="slide">
+	<div style="float: left;	width:20%;height:350px; background-color:#990000;color: white;">
+	<h1 style="padding-top: 150px; padding-left: 30px;">Personal Care</h1>
+	</div>
+		
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="pc1.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid401.html">Panasonic Trimmer</a><br>
+	Rs. 1300</p>
+	</div>
+	
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="pc2.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid402.html">Garnier Facewash</a><br>
+	Rs. 160</p>
+	</div>
+
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="pc3.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid403.html">Axe Deodrant</a><br>
+	Rs. 220</p>
+	</div>
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="pc4.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid404.html">L'Oreal Shampoo</a><br>
+	Rs. 430</p>
+	</div>
+</div>
+
+<div id="slide">
+	<div style="float: left;	width:20%;height:350px; background-color:#990000;	color: white;">
+	<h1 style="padding-top: 150px; padding-left: 40px;">Home Products</h1>
+	</div>
+		
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="hp1.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid501.html">Toaster</a><br>
+	Rs. 1000</p>
+	</div>
+	
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="hp2.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid502.html">Wooden Furniture</a><br>
+	Rs. 6000</p>
+	</div>
+
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="hp3.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid503.html">Prestige Gas Stove</a><br>
+	Rs. 4300</p>
+	</div>
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="hp4.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid504.html">Non Sticking Pan</a><br>
+	Rs. 430</p>
+	</div>
+</div>
+
+<div id="slide">
+	<div style="float: left;	width:20%;height:350px; background-color:#990000;	color: white;">
+	<h1 style="padding-top: 150px; padding-left: 80px;">Books</h1>
+	</div>
+		
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="book1.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid601.html">Half Girlfriend</a><br>
+	Rs. 120</p>
+	</div>
+	
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="book2.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid602.html">Sherlock Holmes</a><br>
+	Rs. 160</p>
+	</div>
+
+	<div style="margin-left:40px;float:left;	width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="book3.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid603.html">Harry Potter and the Philosopher's Stone</a><br>
+	Rs. 300</p>
+	</div>
+
+	<div style="margin-left:40px;float:left;width:15%;height:350px; background-color: #CB4335;	color: white;">
+	<img src="book4.jpg" height="75%" width="100%">
+	<p style="text-align: center;"><a href="pid604.html">Fifty Shades Of Grey</a><br>
+	Rs. 390</p>
+	</div>
+	</div>
+<br>
+<div style="width:94%; height:220px;background-color: #696969;float: left;margin: 10px 10px 0px 20px;padding:20px; color: white;line-height: 130%;">
+
+	<table style="width:90%;height:40px;" align="left">
+	 	<tr>
+    		<th><strong>Mail @:</strong><br><br>
+			Brisky Ltd.<br>
+			304, Krishna Apartments<br>
+			Juhu Lane, Andheri West<br>
+			Mumbai, Maharashtra<br>
+			India 400058
+			</th>
+			<th>
+			<strong>Registered Mailing Address:</strong><br><br>
+			Brisky Ltd.<br>
+			304, Krishna Apartments<br>
+			Juhu Lane, Andheri West<br>
+			Mumbai, Maharashtra<br>
+			India 400058<br>
+			<i class="material-icons" style="padding-right: 10px;">local_phone</i> +91-9930890426<br>
+			<i class="material-icons" style="padding-right: 10px;">email</i> dasoriyarayan@gmail.com<br>
+			</th>		
+  		</tr>
+	</table>
+</div>
+
+<br>
+<div style="width:93%; height:820px;background-color: #696969;float: left;margin: 20px;padding:30px; color: white; line-height: 160%;">
+
+<strong>Online shopping made easy at Brisky</strong>
+<br>
+Gone are the days, when you had to go on exhausting shopping trips and wait in long queues to buy something. Today, with online shopping, everything you need is right at your fingertips. For instance, there's this big party thrown by your friend, or your sister's getting married, and you need a new dress, in fact you need more than one dress, you need matching shoes, accessories, bags and makeup. You have to get all these things soon, possibly before the weekend. And you can't even take a day off from work to go shopping in a crowded mall. What do you do? You can't delegate someone else to buy these things for you. What if they bring something you don't like? You can't even return those things and get your money back.
+<br><br>
+<strong>Brisky Assured</strong><br>
+Brisky makes online shopping as hassle-free as possible. You can always rest assured about the quality of products you are buying online at our site. Together with our trusted partners we promise to deliver only original and brand-new products, with the correct bill. Almost all the top products at our site have the Brisky Assured badge on them, guaranteeing that they have gone through six stages of rigorous quality checks. You can see the B-Assured badge on all popular categories such as mobiles, electronics, home and furnishing, personal appliances and fashion.
+<br><br>
+<strong>Easy Return and Replacement Policies</strong><br>
+Imagine you've bought an expensive jacket from Mango, or a pair of Steve Madden heels; the price, color, everything was to your liking when you ordered the product at our site. But when the order reached you, you found the color of the jacket not to your liking or the shoes a tad bit loose or tight; or say you are unhappy with the product for some reason, you can easily return the product and get your money back. Or you can also return it and ask for another size, without paying extra money. Online shopping at our site also makes sure that you enjoy faster delivery.
+<br><br>
+<strong>EMI Makes Everything Affordable</strong><br>
+So you need a new washing machine or a new smartphone. Since they don't come cheap, buying them will need a lot of money. Although your payday is just around the corner, you have other commitments too, and you cannot pay for the washing machine or mobile in one shot. What will you do? Beg, borrow, steal? There's no need to resort to any of these desperate measures, especially when you can buy your favourite products at EMI from our online store.
+<br><br>
+<strong>Want To Understand a Product Better? Check Our Buying Guides</strong><br>
+So you are planning to buy a refrigerator for your home, or you want to invest in some gym equipment, but you don't understand head or tail about these products. When you look at the products and their huge list of specifications, things look Greek and Latin to you. You decide to listen to your colleague and end up buying a refrigerator that you don't like. Or you spend thousands on gym equipment that you didn't really need. Rather than making such an expensive mistake, go through our buying guides for various categories of products and make your online shopping experience the best ever.
+<br><br>
+<strong>Shop On the App</strong><br>
+So you are stuck in a traffic jam, or you are relaxing on a lazy Sunday afternoon. You don't feel like booting up your laptop in your free time. We have a great idea, listen to your playlist, relax and also shop for your favourite products on-the-go on our mobile app.
+<br><br>
+So, what are you shopping for today?
+
+</div>
+</body>
+</html>
